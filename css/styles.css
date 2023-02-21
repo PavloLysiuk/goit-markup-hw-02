@@ -80,6 +80,40 @@ body {
 /* /Header */
 /* Main */
 
+.hhh {
+  padding: 188px 50px;
+  background-color: var(--navi-blue);
+}
+.hero {
+  margin: 0;
+  max-width: 496px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.order-button {
+  margin-top: 48px;
+  padding: 16px 32px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  background: var(--iris);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.order-button:hover,
+.order-button:focus {
+  background: var(--ocean);
+}
+
 .employee-name,
 .our-goals,
 .portfolio-heading {
