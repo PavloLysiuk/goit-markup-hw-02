@@ -2,14 +2,14 @@
   --iris: #4d5ae5;
   --ocean: #404bbf;
   --navi-blue: #2e2f42;
-  --green: ##31d0aa;
+  --green: #31d0aa;
   --slate: #434455;
   --light-slate: #8e8f99;
   --cornflower: #e7e9fc;
   --cloud: #f4f4fd;
+  --white: #ffffff;
   --navy-blue-modal: rgba(46, 47, 66, 0.4);
   --grey: rgba(46, 47, 66, 0.7);
-  --white: #ffffff;
 }
 
 body {
