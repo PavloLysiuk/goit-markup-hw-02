@@ -24,6 +24,10 @@ body {
   list-style: none;
 }
 
+.hide {
+  display: none;
+}
+
 /* Header */
 
 .header-logo {
