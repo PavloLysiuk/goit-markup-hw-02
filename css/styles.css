@@ -16,8 +16,14 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
   font-family: 'Roboto', sans-serif;
-  color: var(--navi-blue);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
 }
 
 .style ul {
@@ -72,33 +78,46 @@ body {
   color: var(--ocean);
 }
 /* /Header */
+/* Main */
 
+.employee-name,
+.our-goals,
+.portfolio-heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navi-blue);
+}
+
+/* /Main */
 /* portfolio */
 
 .filter-button {
   padding: 12px 24px;
-  color: var(--iris);
-  background-color: var(--cloud);
-  border: 1px solid var(--cornflower);
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
+  color: var(--iris);
+  background-color: var(--cloud);
+  border: 1px solid var(--cornflower);
   cursor: pointer;
 }
 
 .filter-button:hover,
 .filter-button:focus {
   padding: 13px 25px;
-  color: var(--white);
-  background-color: var(--ocean);
   border-radius: 4px;
   border: none;
+  color: var(--white);
+  background-color: var(--ocean);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+/* /Portfolio */
 /* footer */
 
 .footer {
