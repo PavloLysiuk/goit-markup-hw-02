@@ -80,13 +80,14 @@ body {
 /* /Header */
 /* Main */
 
-.hero-back {
+.hero {
   padding: 188px 50px;
   background-color: var(--navi-blue);
 }
-.hero {
-  margin: 0;
+.hero-title {
+  margin: 0 auto;
   max-width: 496px;
+  text-align: center;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -95,6 +96,8 @@ body {
 }
 
 .order-button {
+  align-items: center;
+  margin: auto;
   margin-top: 48px;
   padding: 16px 32px;
   font-weight: 500;
