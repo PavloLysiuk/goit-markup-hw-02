@@ -114,6 +114,10 @@ body {
   color: var(--navi-blue);
 }
 
+.services-item {
+  border: 1px solid var(--cornflower);
+}
+
 .team {
   padding: 120px 0;
   background-color: var(--cloud);
@@ -166,8 +170,8 @@ body {
   width: 360px;
   height: 420px;
   overflow: hidden;
-  border: 1px solid var(--cornflower);
   background-color: var(--white);
+  border: 1px solid var(--cornflower);
 }
 .portfolio-item:hover {
   border: 1px solid var(--cloud);
