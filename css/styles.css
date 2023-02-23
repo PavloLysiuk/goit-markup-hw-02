@@ -13,16 +13,15 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+}
+
+.list {
+  list-style: none;
 }
 
 /* Header */
@@ -43,7 +42,6 @@ body {
 }
 
 .nav-link {
-  list-style: none;
   font-weight: 500;
   text-decoration: none;
   font-size: 16px;
@@ -78,9 +76,9 @@ body {
 /* Main */
 
 .hero {
-  padding: 188px 50px;
   background-color: var(--navi-blue);
 }
+
 .hero-title {
   max-width: 496px;
   font-weight: 700;
@@ -131,7 +129,6 @@ body {
 
 .team-item {
   width: 264px;
-  height: 380px;
   background: var(--white);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
@@ -156,7 +153,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
   letter-spacing: 0.04em;
   color: var(--iris);
   background-color: var(--cloud);
@@ -172,16 +168,17 @@ body {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+.portfolio-link {
+  text-decoration: none;
+}
+
 .portfolio-item {
   width: 360px;
-  height: 420px;
-  overflow: hidden;
   background-color: var(--white);
-  border: 1px solid var(--cornflower);
 }
-.portfolio-item:hover {
-  border: 1px solid var(--cloud);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
+.portfolio-text {
+  color: var(--slate);
 }
 
 /* /Portfolio */
