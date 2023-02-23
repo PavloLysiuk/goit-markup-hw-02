@@ -68,6 +68,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--slate);
 }
+
 .contact-link:hover,
 .contact-link:focus {
   color: var(--ocean);
