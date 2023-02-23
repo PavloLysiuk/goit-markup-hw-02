@@ -57,6 +57,10 @@ body {
   color: var(--ocean);
 }
 
+.nav-list .nav-link.current {
+  color: var(--ocean);
+}
+
 .contact-link {
   font-style: normal;
   text-decoration: none;
